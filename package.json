@@ -18,7 +18,10 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "rpi-433-tristate": "2.3.1",
+    "onoff": "5.0.1"
+
   },
   "devDependencies": {},
   "scripts": {
