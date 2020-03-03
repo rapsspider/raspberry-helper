@@ -1,7 +1,4 @@
-import Button from "../components/Button";
-import Switch from "../components/Switch";
-import SwitchUpDown from "../components/SwitchUpDown";
-import RadioReceiver from "../components/RadioReceiver";
+import { Button, Switch, SwitchUpDown } from "rasp-components";
 
 const components = {
   // Switch
@@ -9,7 +6,7 @@ const components = {
     // UP
     buttonUp : new Button(4),
     relayUp : new Switch(27),
-  
+
     // Down
     buttonDown : new Button(17),
     relayDown : new Switch(25),
@@ -18,7 +15,7 @@ const components = {
     buttonStop : new Button(22),
   }),
 
-  radioReceiver : new RadioReceiver(12),
+//  radioReceiver : new RadioReceiver(12),
 }
 
 export default components;
